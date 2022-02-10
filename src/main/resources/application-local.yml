@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: 'jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&serverTimezone=Asia/Seoul'
+    username: 'test'
+    password: 'test'
+
+file:
+  path: /resources/images/
+
+img:
+  url: /images
+  server:
+    url: http://127.0.0.1:8080
